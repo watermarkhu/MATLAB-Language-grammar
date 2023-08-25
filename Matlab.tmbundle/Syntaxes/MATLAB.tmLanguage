@@ -2905,7 +2905,7 @@
 			<key>name</key>
 			<string>variable.other.property.matlab</string>
 			<key>match</key>
-			<string>(?&lt;=\.)[a-zA-Z][a-zA-Z0-9_]*(?![a-zA-Z0-9_]|(?:\(|\{|\.\())</string>
+			<string>(?&lt;=\.)[a-zA-Z][a-zA-Z0-9_]*(?!\(|\{|\.\()</string>
 		</dict>
 		<key>readwrite_variable</key>
 		<dict>
@@ -2914,7 +2914,7 @@
 			<key>name</key>
 			<string>variable.other.readwrite.matlab</string>
 			<key>match</key>
-			<string>(?&lt;![a-zA-Z0-9_]|\.)[a-zA-Z][a-zA-Z0-9_]*(?![a-zA-Z0-9_]|(?:\(|\{|\.\())</string>
+			<string>(?&lt;![a-zA-Z0-9_]|\.)[a-zA-Z][a-zA-Z0-9_]*(?!\(|\{|\.\()</string>
 		</dict>
 		<key>property_access</key>
 		<dict>
